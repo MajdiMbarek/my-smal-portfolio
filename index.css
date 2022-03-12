@@ -1,0 +1,93 @@
+body{
+ background-image: url(https://cdn.wallpapersafari.com/22/72/0TDxAP.jpg);
+background-repeat: no-repeat;
+background-size:1280px;
+}
+#profil{
+    max-width: 50%;
+    margin-right :auto;
+    margin-left : auto;
+    display :flex;
+    margin-top:150px;
+    padding :20px;
+    background: transparent;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/3117664/thumb/1.jpg);
+    border-radius: 10px;
+    transition: transform 0.8s;
+    transform-style: flat;
+}
+#profil:hover{
+   
+}
+div.lorem{
+    line-height:50px;
+    padding-left:50px;
+    text-align :center;
+}
+.fal img{
+    border-radius: 100px;
+}
+.fal h1{
+    font-size: large;
+    text-align: center;
+}
+.social{
+    display : flex;
+    justify-content: space-around;
+    margin-top : 10px;
+    
+    
+}
+.social i{
+    border :solid;
+    border-radius:20px;
+    padding: 5px;
+    color:gold;
+   
+
+}
+.social i:hover{
+    color:gray;   
+}
+ .phone{
+  
+   transform: rotate3d();
+   border: solid;
+   border-radius:20px;
+   padding: 20%;
+  color:gold;
+ 
+}
+#drap{
+    margin-left :27px;
+}
+.phone:hover{
+    color:black;
+}
+#drap{
+    position: relative;
+    display: inline-block;
+}
+.drapdown{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+#drap:hover .drapdown{
+    display:block;
+}
+.drapdown{
+  font-size: large;
+  padding: 5px;
+  background-color: yellow;
+  border-radius: 5px;
+    
+}
+.drapdown a{
+    padding: 10px;
+}
+
